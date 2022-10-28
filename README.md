@@ -1,0 +1,1 @@
+Patika.dev/java101/TemelKavramlarveDeğişkenlerOdevler:D
