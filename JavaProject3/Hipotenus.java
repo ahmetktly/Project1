@@ -1,7 +1,7 @@
 package JavaProject3;
 import java.util.Scanner;
 
-public class Hipotenüs {
+public class Hipotenus {
     public static void main(String[] args) {
 
         int first , second ,third;
