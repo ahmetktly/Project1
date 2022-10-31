@@ -22,6 +22,9 @@ public class HesapMakinesi {
 
     String islem=tar.next();
 
+
+    
+
     switch (islem){
 
         case("toplama"):
@@ -43,14 +46,30 @@ public class HesapMakinesi {
         break;
 
         case("bolme"):
+        
+        switch(a){
+
+            case(0):
+            System.out.println("0 ile bölünemez değeri değiştirin");
+            a=tar.nextInt();
+            sonuc=i/a;
+            System.out.println("Sonuc="+sonuc);
+            break;
+    
+            default:
         sonuc=i/a;
             System.out.println("Sonuç="+sonuc);
+            break;
 
+        
+        }
         break;
-
+        
         default:
 
         System.out.println("Hatalı İşlem Girişi");
+
+        break;
 
 
 
